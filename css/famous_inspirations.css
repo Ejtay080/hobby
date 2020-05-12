@@ -1,0 +1,153 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header nav nav'
+    'article article article aside aside'
+    'article article article aside aside'
+    'footer footer footer footer footer';
+    grid-gap: none;
+    font: oblique normal normal 12px 12px 'goomba';
+    
+    
+}
+.header{
+    grid-area: header;
+    border-radius: 10% / 105%;
+    border: #f28500 solid 2px;
+    color: rgb(109, 72, 3, 0.8);
+    padding: 22px;
+    text-align: center;
+    
+}
+.nav{
+    grid-area: nav;
+    color: #f28500;
+    text-align: center;
+}
+.article{
+    grid-area: article;
+    font-family: 'goomba';
+    font-style: oblique;
+    letter-spacing: 1em;
+    word-spacing: 2em;
+    text-align: center;
+    color: #f28500;
+    border-right: 2px #f28500 solid;
+}
+.aside{
+    grid-area: aside;
+    font-family: 'goomba';
+    font-style: oblique;
+    text-align: center;
+    vertical-align: middle;
+    word-spacing: 1em;
+    font-size: 150%;
+}
+.footer{
+    grid-area: footer;
+    font-family: 'goomba';
+    font-style: oblique;
+    letter-spacing: .5em;
+    word-spacing: 2em;
+    text-align: center;
+    background-color:rgba(242, 133, 0, 0.5);
+}
+@font-face{
+    font-family: 'goomba';
+    src: url('fonts/PxPlus_IBM_BIOS-2y.ttf') format('truetype');
+}
+.grid-container > .nav > p  > a:link{
+    color: #f28500;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+.grid-container > .nav > p  > a:visited{
+    color: rgba(167, 109, 1, 0.3);
+    font-family: 'goomba';
+    text-decoration: none;
+    
+}
+.grid-container > .nav > p  > a:hover{
+    color: #a75d03;
+    font-family: 'goomba';
+    text-decoration: underline;
+}
+.grid-container > .nav > p  > a:active{
+    color: #f28500;
+    font-family: 'goomba';
+    text-decoration: underline;
+}
+.grid-container > .nav > p{
+    font-size: 125%;
+    padding: 22px;
+    margin-right: -22px;
+}
+.grid-container > .nav{
+    word-spacing: 15px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body{
+    background-color: #f28500;
+    background-image: url("../images/triangles.png" );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-container > .article > h2{
+    color: #f28500;
+}
+.aside > a:first-of-type{
+    color: #a75d03;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+.aside > a:nth-of-type(2){
+    color: #a75d03;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+.aside > a:nth-of-type(3){
+    color: #a75d03;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+.aside > a:nth-of-type(4){
+    color: #a75d03;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+.footer > a{
+    color: #a75d03;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+#traveling {
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+}
+#theater {
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+
+}
+#friends{
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+}
+#drumming {
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+}
+.article > img{
+    width:488px;
+    height:282px;
+}

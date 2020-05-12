@@ -1,0 +1,264 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header header header nav nav'
+    'article article article aside aside'
+    'article article article aside aside'
+    'footer footer footer footer footer';
+    grid-gap: none;
+    font: oblique normal normal 12px 12px 'goomba'; 
+}
+.header{
+    grid-area: header;
+    border-radius: 10% / 105%;
+    border: #f28500 solid 2px;
+    color: rgb(109, 72, 3, 0.8);
+    padding: 22px;
+    text-align: center;
+    
+}
+.nav{
+    grid-area: nav;
+    color: #f28500;
+    text-align: center;
+}
+.article{
+    grid-area: article;
+    font-family: 'goomba';
+    font-style: oblique;
+    text-align: center;
+    border-right: 2px #f28500 solid;
+    border-left: 2px #f28500 solid;
+}
+.footer{
+    grid-area: footer;
+    font-family: 'goomba';
+    font-style: oblique;
+    letter-spacing: .5em;
+    word-spacing: 2em;
+    text-align: center;
+    background-color:rgba(242, 133, 0, 0.5);
+}
+.aside{
+    grid-area: aside;
+    font-family: 'goomba';
+    font-style: oblique;
+    letter-spacing: .5em;
+    word-spacing: 1em;
+    text-align: center;
+    vertical-align: middle;
+}
+@font-face{
+    font-family: 'goomba';
+    src: url('fonts/PxPlus_IBM_BIOS-2y.ttf') format('truetype');
+}
+.grid-container > .nav > p  > a:link{
+    color: #f28500;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+.grid-container > .nav > p  > a:visited{
+    color: rgba(167, 109, 1, 0.3);
+    font-family: 'goomba';
+    text-decoration: none;
+    
+}
+.grid-container > .nav > p  > a:hover{
+    color: #a75d03;
+    font-family: 'goomba';
+    text-decoration: underline;
+}
+.grid-container > .nav > p  > a:active{
+    color: #f28500;
+    font-family: 'goomba';
+    text-decoration: underline;
+}
+.grid-container > .nav > p{
+    font-size: 125%;
+    padding: 22px;
+    margin-right: -22px;
+}
+.grid-container > .nav{
+    word-spacing: 15px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.grid-container > .article > img{
+    border: #f28500 solid 2px;
+}
+body{
+    background-color: #f28500;
+    background-image: url("../images/triangles.png" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#traveling3 {
+    width: 368px;
+    height: 276px;
+}
+.aside > #traveling3 > img{
+    width: 368px;
+    height: 276px;
+}
+#traveling2 {
+    width: 368px;
+    height: 276px;
+}
+.aside > #traveling2 > img{
+    width: 368px;
+    height: 276px;
+}
+#traveling {
+    width: 368px;
+    height: 276px;
+}
+.aside > #traveling > img{
+    width: 368px;
+    height: 276px;
+}
+#friends {
+    width: 368px;
+    height: 276px;
+}
+.aside > #friends > img{
+    width: 368px;
+    height: 276px;
+}
+#theater {
+    width: 368px;
+    height: 276px;
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+}
+.aside > #theater> img{
+    width: 368px;
+    height: 276px;
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+}
+#theater2 {
+    width: 368px;
+    height: 276px;
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+}
+.aside > #theater2 > img{
+    width: 368px;
+    height: 276px;
+}
+.aside > ul{
+    list-style-position: inside;
+    list-style-type: square;
+
+}
+.article > ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+.article > ul > li > p{
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+
+}
+.aside > ul > li > a:active{
+    list-style-position: inside;
+    color: #f28500;
+    font-family: 'goomba';
+    text-decoration: underline;
+}
+.aside > ul > li > a:hover{
+    list-style-position: inside;
+    color: #f28500;
+    font-family: 'goomba';
+    text-decoration: underline;
+}
+.aside > ul > li > a:visited{
+    list-style-position: inside;
+    color: #a75d03;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+.aside > ul > li > a:link{
+    list-style-position: inside;
+    color: #f28500;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+.footer > a:active{
+    color: #f28500;
+    font-family: 'goomba';
+    text-decoration: underline;
+}
+.footer > a:hover{
+    color: #a75d03;
+    font-family: 'goomba';
+    text-decoration: underline;
+}
+.footer > a:visited{
+    color: rgba(167, 109, 1, 0.3);
+    font-family: 'goomba';
+    text-decoration: none;
+}
+.footer > a:link{
+    color: #f28500;
+    font-family: 'goomba';
+    text-decoration: none;
+}
+#traveling4{
+    width: 368px;
+    height: 276px;
+}
+#traveling5{
+    width: 368px;
+    height: 276px;
+}
+#traveling6{
+    width: 368px;
+    height: 552px;
+}
+#traveling7{
+    width: 368px;
+    height: 276px;
+}
+.article > ul:nth-of-type(2) > li > p{
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+
+}
+.article > ul:nth-of-type(3) > li > p{
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+
+}
+#friends2{
+    width: 368px;
+    height: 276px;
+}
+#drumming{
+    width: 368px;
+    height: 276px;
+}
+#drumming2{
+    width: 368px;
+    height: 276px;
+}
+.article > ul:nth-of-type(4) > li > p{
+    color: #f28500;
+    font-family: 'goomba';
+    font-size: 125%;
+}
+hr.new {
+    border-top: 2px solid #f28500;
+  
+}
